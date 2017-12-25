@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "It's a Feature"
-  avatar           : "profile.png"
+  avatar           : "bug-feature.jpg"
   bio              : "Red Teaming, OSCP, Pen Testing, CTF blog"
   location         : "Internet"
   employer         :
