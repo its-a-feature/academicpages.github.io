@@ -8,10 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Blog Main Page
-======
 This section will have running updates of the most recent blog posts, conference talks, or other information.
 
-What is this blog?
+For the Network is Dark and Full of Terrors
 ======
 This is just a blog for personal coding projects, blog posts, and other interesting things that relate to red teaming, pen testing, CTFs, etc. By hosting it here, I can easily reference other github repositories and gists.
