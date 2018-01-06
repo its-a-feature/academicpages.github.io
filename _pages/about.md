@@ -12,7 +12,7 @@ In an attempt to start contributing back to the security community, I am startin
 
 Blog Series
 -----
-Series #1: [Active Directory Discovery](/_posts/2018-01-05-blog-post-1.md)
+Series #1: [Active Directory Discovery](https://its-a-feature.github.io/posts/2018/01/Active-Directory-Discovery-with-a-Mac/)
 
 Tooling
 -----
