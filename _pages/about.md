@@ -16,7 +16,7 @@ Series #1: [Active Directory Discovery](https://its-a-feature.github.io/posts/20
 
 Tooling
 -----
-  - Orchard
+  - [Orchard](https://github.com/its-a-feature/Orchard) - A JavaScript for Automation (JXA) Active Directory enumeration tool.
   - Apfell
 
 For the Network is Dark and Full of Terrors
