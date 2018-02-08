@@ -13,6 +13,7 @@ In an attempt to start contributing back to the security community, I am startin
 Blog Series
 -----
 Series #1: [Active Directory Discovery](https://its-a-feature.github.io/posts/2018/01/Active-Directory-Discovery-with-a-Mac/)
+
 Series #2: [Creating an Apfell](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-1/)
 
 Tooling
