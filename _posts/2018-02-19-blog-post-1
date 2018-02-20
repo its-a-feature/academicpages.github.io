@@ -1,0 +1,88 @@
+---
+title: 'Creating an Apfell - Part 2'
+date: 2018-02-19
+permalink: /posts/2018/02/Creating-an-Apfell-Part-2/
+tags:
+  - Mac
+  - Red Teaming
+  - Database
+  - Postgres
+  - Web
+---
+# Creating an Apfell - Part 2
+
+At the end of the last post we ended up with a very basic RESTful interface to work with some 'operators' and 'callbacks' by leveraging Python 3's asyncio (`async` and `await`) and the Sanic project.
+From the first post, we said there are three main parts for this section of our project:
+* Database
+* Web Server (Sanic)
+* User Interface
+The next steps we'll discuss are the database and the webserver-database boundary. For our purposes, I'll be using Postgres for the database because it has a nice feature as of version 9 that I want to leverage.
+I'll cover this feature later in this post though.
+
+## Peewee - ORM
+
+We are writing our program in Python, and I would like to keep it that way. That means avoiding writing SQL commands as much as possible.
+One way to do this is to leverage an ORM (Object Relational Model) that works as an intermediary between Python objects and SQL queries/objects. 
+I used [peewee](http://peewee.readthedocs.io/en/latest/) as my ORM so that I can leverage peewee-async to actually connect to my database.
+Let's see how this could work:
+~~~
+import peewee as p
+import datetime
+
+class Operator(p.Model):
+  username = p.CharField(max_length=64, unique=True, null=False)
+  password = p.CharField(max_length=1024, null=False)
+  
+class Callback(p.Model):
+  init_callback = p.DateTimeField(default=datetime.datetime.now, null=False)
+  last_checkin = p.DateTimeField(default=datetime.datetime.now, null=False)
+  user = p.CharField(max_length=64, null=False)
+  host = p.CharField(max_length=255, null=False)
+  pid = p.IntegerField(null=False)
+  ip = p.CharField(max_length=100, null=False)
+  description = p.CharField(max_length=1024, null=True)
+  operator = p.ForeignKeyField(Operator, null=True)
+
+Operator.create_table(True)
+Callback.create_table(True)
+~~~
+{: .language-python}
+There are some important things to note here. Each class represents a different table in our database, and each member of that class represents a column in that table.
+We specify `unique=True` to indicate that column must have all unique values. Similarly, `null=False` means that column cannot be null in a row.
+I put this code in `models.py` within the `database_models` folder to keep everything organized.
+
+This just describes the database, but we still need to actually connect to it.
+
+## Peewee-async 
+
+[peewee-async](https://peewee-async.readthedocs.io/en/latest/peewee_async/api.html#) allows us to connect to our database while keeping our program asynchronous.
+In `__init__.py`, add the following:
+~~~
+import uvloop
+from peewee_async import Manager, PooledPostgresqlDatabase
+
+dbloop = uvloop.new_event_loop()
+apfell_db = PooledPostgresqlDatabase('apfell_db', user='postgres', password='postgres')
+apfell_db.connect_async(loop=dbloop)
+db_objects = Manager(apfell_db, loop=dbloop)
+~~~
+{: .language-python}
+and `server.py` becomes:
+~~~
+from app import apfell, dbloop, apfell_db, db_objects
+import asyncio
+
+if __name__ == "__main__":
+  asyncio.set_event_loop(dbloop)
+  server = apfell.create_server(host='0.0.0.0', port=80)
+  loop = asyncio.get_event_loop()
+  task = asyncio.ensure_future(server)
+  db_objects.database.allow_sync = False  # raise AssertionError on ANY sync call
+  try:
+      loop.run_until_complete(apfell_db.connect_async(loop=dbloop))
+      loop.run_forever()
+  except:
+      loop.stop()
+~~~
+{: .language-python}
+
