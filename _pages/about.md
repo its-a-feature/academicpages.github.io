@@ -14,7 +14,8 @@ Blog Series
 -----
 Series #1: [Active Directory Discovery](https://its-a-feature.github.io/posts/2018/01/Active-Directory-Discovery-with-a-Mac/)
 
-Series #2: [Creating an Apfell](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-1/)
+Series #2: [Creating an Apfell - Part 1](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-1/) - Sanic
+           [Creating an Apfell - Part 2](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-2/) - peewee, peewee-async
 
 Tooling
 -----
