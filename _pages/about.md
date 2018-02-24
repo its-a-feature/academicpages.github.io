@@ -17,7 +17,8 @@ Series #1:
 
 Series #2:  
 [Creating an Apfell - Part 1](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-1/) - Sanic  
-[Creating an Apfell - Part 2](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-2/) - peewee, peewee-async
+[Creating an Apfell - Part 2](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-2/) - peewee, peewee-async  
+[Creating an Apfell - Part 3](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-3/) - Jinja2, Twitter Bootstrap
 
 Tooling
 -----
