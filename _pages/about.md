@@ -14,6 +14,7 @@ Blog Series
 -----
 Series #1:  
 [Active Directory Discovery](https://its-a-feature.github.io/posts/2018/01/Active-Directory-Discovery-with-a-Mac/)
+: Basics of Active Directory discovery with JXA, command-line tools, and wrapped in [Orchard](https://github.com/its-a-feature/Orchard)
 
 Series #2:  
 [Creating an Apfell - Part 1](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-1/) - Sanic
