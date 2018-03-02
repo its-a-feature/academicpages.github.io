@@ -17,11 +17,17 @@ Series #1:
 
 Series #2:  
 [Creating an Apfell - Part 1](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-1/) - Sanic  
+: Creating a basic RESTful, asynchronous, python web server  
 [Creating an Apfell - Part 2](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-2/) - peewee, peewee-async  
+: Connecting to a Postgres database, ORMs, and event loops  
 [Creating an Apfell - Part 3](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-3/) - Jinja2, Twitter Bootstrap  
-[Creating an Apfell - Part 4](https://its-a-feature.github.io/posts/2018/03/Creating-an-Apfell-Part-4/) - LISTEN/NOTIFY, Websockets  
+: User interface HTML templeting with Jinja2 and new UI elements with twitter bootstrap  
+[Creating an Apfell - Part 4](https://its-a-feature.github.io/posts/2018/03/Creating-an-Apfell-Part-4/) - LISTEN/NOTIFY, Websockets 
+: Asynchronous notifications from Postgres database, websockets (both in Sanic and JavaScript)  
 Creating an Apfell - Part 5 - Vue, sanic-auth, sanic-wtf  
+: Dynamic real-time page updates with Vue, user authentication with sanic-auth, and form submissions with sanic-wtf  
 Bare-Bones Apfell server code release  
+: Initial release of a bare-bones server incorporating all of the above elements for expansion
 
 Tooling
 -----
