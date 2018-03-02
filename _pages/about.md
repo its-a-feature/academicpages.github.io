@@ -20,6 +20,8 @@ Series #2:
 [Creating an Apfell - Part 2](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-2/) - peewee, peewee-async  
 [Creating an Apfell - Part 3](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-3/) - Jinja2, Twitter Bootstrap  
 [Creating an Apfell - Part 4](https://its-a-feature.github.io/posts/2018/03/Creating-an-Apfell-Part-4/) - LISTEN/NOTIFY, Websockets  
+Creating an Apfell - Part 5 - Vue, sanic-auth, sanic-wtf  
+Bare-Bones Apfell server code release  
 
 Tooling
 -----
