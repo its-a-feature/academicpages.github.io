@@ -29,8 +29,11 @@ Series #2:
 [Creating an Apfell - Part 4](https://its-a-feature.github.io/posts/2018/03/Creating-an-Apfell-Part-4/) - LISTEN/NOTIFY, Websockets
 : Asynchronous notifications from Postgres database, websockets (both in Sanic and JavaScript)  
 
-Creating an Apfell - Part 5 - Vue, sanic-auth, sanic-wtf
-: Dynamic real-time page updates with Vue, user authentication with sanic-auth, and form submissions with sanic-wtf  
+[Creating an Apfell - Part 5](https://its-a-feature.github.io/posts/2018/03/Creating-an-Apfell-Part-5/) - Vue
+: Dynamic real-time page updates with Vue  
+
+Creating an Apfell - Part 6 - Sanic-auth, Sanic-wtf  
+: User authentication with sanic-auth, and form submissions with sanic-wtf  
 
 Bare-Bones Apfell server code release
 : Initial release of a bare-bones server incorporating all of the above elements for expansion
