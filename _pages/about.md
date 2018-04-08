@@ -32,7 +32,7 @@ Series #2:
 [Creating an Apfell - Part 5](https://its-a-feature.github.io/posts/2018/03/Creating-an-Apfell-Part-5/) - Vue
 : Dynamic real-time page updates with Vue  
 
-Creating an Apfell - Part 6 - Sanic-auth, Sanic-wtf  
+[Creating an Apfell - Part 6](https://its-a-feature.github.io/posts/2018/03/Creating-an-Apfell-Part-6/) - Sanic-auth, Sanic-wtf  
 : User authentication with sanic-auth, and form submissions with sanic-wtf  
 
 Bare-Bones Apfell server code release
