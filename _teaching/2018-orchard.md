@@ -5,16 +5,10 @@ type: "JXA/JavaScript"
 permalink: /projects/orchard
 venue: "GitHub"	
 date: 2018-01-15	
-location: "test, test2"
 ---
 
-This is a brief blurb on the Orchard project.
+JavaScript for Automation (JXA) tool to do Active Directory enumeration.
 
-Heading 1
+Link to the Repository
 ======
-
-Heading 2
-======
-
-Heading 3
-======
+https://github.com/its-a-feature/Orchard
