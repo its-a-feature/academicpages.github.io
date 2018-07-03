@@ -1,8 +1,11 @@
 ---
 title: "Orchard"
 collection: teaching
-type: "JS"
+type: "JXA/JavaScript"
 permalink: /projects/orchard
+-venue: "GitHub"	
+-date: 2018-01-15	
+-location: "City, Country"
 ---
 
 This is a brief blurb on the Orchard project.
