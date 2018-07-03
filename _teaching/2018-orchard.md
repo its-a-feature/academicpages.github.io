@@ -11,4 +11,4 @@ JavaScript for Automation (JXA) tool to do Active Directory enumeration.
 
 Link to the Repository
 ======
-https://github.com/its-a-feature/Orchard
+[Orchard](https://github.com/its-a-feature/Orchard)
