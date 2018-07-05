@@ -35,7 +35,7 @@ Series #2:
 [Creating an Apfell - Part 6](https://its-a-feature.github.io/posts/2018/04/Creating-an-Apfell-Part-6/) - Sanic-auth, Sanic-wtf  
 : User authentication with sanic-auth, and form submissions with sanic-wtf  
 
-[Bare-Bones Apfell server code release]((https://its-a-feature.github.io/posts/2018/04/bare-bones-apfell-server-code-release/)
+[Bare-Bones Apfell server code release](https://its-a-feature.github.io/posts/2018/04/bare-bones-apfell-server-code-release/)
 : Initial release of a bare-bones server incorporating all of the above elements for expansion
 
 Tooling
