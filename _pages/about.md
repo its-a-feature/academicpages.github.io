@@ -16,6 +16,9 @@ Series #1:
 [Active Directory Discovery](https://its-a-feature.github.io/posts/2018/01/Active-Directory-Discovery-with-a-Mac/)
 : Basics of Active Directory discovery with JXA, command-line tools, and wrapped in [Orchard](https://github.com/its-a-feature/Orchard)
 
+Active Directory Discovery - Now with more Objective
+: Delving deeper into Objective C bridge in JXA to query Active Directory via APIs
+
 Series #2:  
 [Creating an Apfell - Part 1](https://its-a-feature.github.io/posts/2018/02/Creating-an-Apfell-Part-1/) - Sanic
 : Creating a basic RESTful, asynchronous, python web server  
@@ -37,6 +40,19 @@ Series #2:
 
 [Bare-Bones Apfell server code release](https://its-a-feature.github.io/posts/2018/07/bare-bones-apfell-server-code-release/)  
 : Initial release of a bare-bones server incorporating all of the above elements for expansion
+
+Current frameworks, the good, the annoying, and the ideal  
+: A brief walkthrough of common red teaming frameworks and why I decided to learn how to create my own
+
+Series #3:  
+Creating a RAT - Part 1 - What is basic functionality  
+: A walkthrough of the first release of apfell-jxa to discuss what is required for a basic RAT
+
+Creating a RAT - Part 2 - Upping the game, securing your comms  
+: Adding encryption, authentication, and detection checks to your basic RAT
+
+Creating a RAT - Part 3 - Updating configurations  
+: How to update configurations on the fly, including swapping out C2 mechanisms and loading code in JXA
 
 Tooling
 -----
