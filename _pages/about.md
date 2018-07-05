@@ -41,7 +41,8 @@ Series #2:
 Tooling
 -----
   - [Orchard](https://github.com/its-a-feature/Orchard) - A JavaScript for Automation (JXA) Active Directory enumeration tool.
-  - Apfell
+  - Apfell  
+    - [apfell-jxa](https://github.com/its-a-feature/apfell-jxa) - A JXA implant for use with the Apfell framework.
 
 For the Network is Dark and Full of Terrors
 ======
