@@ -41,7 +41,7 @@ Series #2:
 [Bare-Bones Apfell server code release](https://its-a-feature.github.io/posts/2018/07/bare-bones-apfell-server-code-release/)  
 : Initial release of a bare-bones server incorporating all of the above elements for expansion
 
-Current frameworks: the upsides, the downsides, and my ideal  
+[Current frameworks: the upsides, the downsides, and my ideal](https://its-a-feature.github.io/posts/2018/07/current-frameworks-and-apfell/)  
 : A brief walkthrough of common red teaming frameworks and why I decided to learn how to create my own
 
 Series #3:  
