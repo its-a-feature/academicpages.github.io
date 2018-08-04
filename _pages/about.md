@@ -44,7 +44,11 @@ Series #2:
 [Current frameworks: the upsides, the downsides, and my ideal](https://its-a-feature.github.io/posts/2018/07/current-frameworks-and-apfell/)  
 : A brief walkthrough of common red teaming frameworks and why I decided to learn how to create my own
 
-Series #3:  
+Series #3:
+[Beginning the operational tracking](https://its-a-feature.github.io//posts/2018/08/beginning-the-operational-tracking/)  
+: An initial walkthrough of some updates and the beginnings of tracking operations - Payloads and Callbacks  
+
+Series #4:  
 Creating a RAT - Part 1 - What is basic functionality  
 : A walkthrough of the first release of apfell-jxa to discuss what is required for a basic RAT
 
