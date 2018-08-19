@@ -44,9 +44,12 @@ Series #2:
 [Current frameworks: the upsides, the downsides, and my ideal](https://its-a-feature.github.io/posts/2018/07/current-frameworks-and-apfell/)  
 : A brief walkthrough of common red teaming frameworks and why I decided to learn how to create my own
 
-Series #3:
-[Beginning the operational tracking](https://its-a-feature.github.io//posts/2018/08/beginning-the-operational-tracking/)  
+Series #3:  
+[Beginning the operational tracking](https://its-a-feature.github.io/posts/2018/08/beginning-the-operational-tracking/)  
 : An initial walkthrough of some updates and the beginnings of tracking operations - Payloads and Callbacks  
+
+[C2 Profile Management](https://its-a-feature.github.io/posts/2018/08/c2-profile/)  
+: C2 Profile creation and tracking, now with more analytics and management  
 
 Series #4:  
 Creating a RAT - Part 1 - What is basic functionality  
