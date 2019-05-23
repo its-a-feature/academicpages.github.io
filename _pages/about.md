@@ -61,11 +61,17 @@ Creating a RAT - Part 2 - Upping the game, securing your comms
 Creating a RAT - Part 3 - Updating configurations  
 : How to update configurations on the fly, including swapping out C2 mechanisms and loading code in JXA
 
+Externnal Posting:  
+  - [Folder Action Persistence](https://posts.specterops.io/folder-actions-for-persistence-on-macos-8923f222343d) - Walkthrough of a new persistence technique via Folder Actions  
+  - [All of my Medium Posts](https://medium.com/@its_a_feature_) - Just a link to all of my posts on Medium in case they don't get linked here
+  
 Tooling
 -----
   - [Orchard](https://github.com/its-a-feature/Orchard) - A JavaScript for Automation (JXA) Active Directory enumeration tool.
   - [Apfell](https://github.com/its-a-feature/Apfell) - A macOS, post-exploit framework for red teaming  
-    - [apfell-jxa](https://github.com/its-a-feature/apfell-jxa) - A JXA implant for use with the Apfell framework.
+    - [apfell-jxa](https://github.com/its-a-feature/apfell-jxa) - A JXA implant for use with the Apfell framework.  
+  - [HealthInspector](https://github.com/its-a-feature/HealthInspector) - A JXA script to do situational awareness without spawning new shell commands  
+  - [KeytabParser](https://github.com/its-a-feature/KeytabParser) - A python script to parse macOS' Heimdal Keytab files and display the associated keys
 
 For the Network is Dark and Full of Terrors
 ======
