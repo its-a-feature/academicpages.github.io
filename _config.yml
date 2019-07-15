@@ -6,6 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+theme                    : jekyll-theme-hacker
 locale                   : "en-US"
 title                    : "It's a Feature / Not a Bug"
 title_separator          : "-"
